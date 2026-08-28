@@ -1,0 +1,21 @@
+waveav/client_test.go
+  s_13086dcbacd4a6::t_f96192b07bf3f1 1-48
+waveav/client.go
+  s_13086dcbacd4a6::t_8da29a1074ae3b 1-172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "565f0dbd012beb4500f97d239ef2f0883796d0e2",
+  "prompts": {},
+  "sessions": {
+    "s_13086dcbacd4a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fef676a74ffeGDIpvQIhMKNdae",
+        "model": "deepseek-v4-pro"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

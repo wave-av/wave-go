@@ -1,0 +1,16 @@
+.gitleaks.toml
+  h_af5ac1a9798224 1-46
+scripts/public-repo-guard/content-policy.sh
+  h_af5ac1a9798224 1-143
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "4ec4cbb27e03c3d8a37a1c1351675ac016ade180",
+  "prompts": {},
+  "humans": {
+    "h_af5ac1a9798224": {
+      "author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}

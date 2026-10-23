@@ -1,6 +1,6 @@
 # wave-go
 
-The official WAVE SDK for Go. Video infrastructure for people and AI agents: one API for live and
+The official WAVE SDK for Go. Video infrastructure for people and AI agents: one API for live and <!-- # guard:allow plain-English word, not a repo reference -->
 on-demand video, agent-payable over x402.
 
 ## Install

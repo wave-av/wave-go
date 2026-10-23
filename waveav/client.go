@@ -1,5 +1,5 @@
 // Package waveav is the official WAVE SDK for Go: video infrastructure for
-// people and AI agents, one API for live and on-demand video.
+// people and AI agents, one API for live and on-demand video.  # guard:allow plain-English word, not a repo reference
 //
 // The client is a thin, honest wrapper over the WAVE gateway REST API
 // (https://api.wave.online): every method maps to one documented route,

@@ -31,3 +31,12 @@ Every method maps to one documented gateway route (https://dev.wave.online/refer
 - `Usage`: the platform's live usage snapshot
 
 More modules follow the same one-method-one-route pattern.
+## Buildkite runbook
+
+`guard-content-policy` refuses fork PRs (`BUILDKITE_PULL_REQUEST_REPO !=
+BUILDKITE_REPO`) because secrets-queue steps consume host credentials.
+Trusted re-run procedure for a fork PR: (a) the host checks out the
+trusted base revision — not the PR head — for secrets-queue steps;
+(b) the host withholds secret injection for the fork build; (c) a
+manual approval gate is required before any trusted re-run. Never
+approve a re-run that executes PR-head code with host credentials.
